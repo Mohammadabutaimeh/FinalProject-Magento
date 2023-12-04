@@ -36,7 +36,9 @@ public class myTestCases extends Parameters {
 		confirmPasswordInput.sendKeys(password);
 		signUpButton.click();
 		Thread.sleep(2000);
+		
 	   String  WelcomeMsg = driver.findElement(By.xpath("//div[@class='panel header']")).getText();
+	   
 	   softassert.assertEquals(WelcomeMsg.contains ("Welcome"), true,"validation the signup process");
 	   softassert.assertAll();
 	}
@@ -45,8 +47,9 @@ public class myTestCases extends Parameters {
 	public void LogoutTestCase() throws InterruptedException {
 		driver.get(LogoutPage);	
 		Thread.sleep(7000);
+		
 		 softassert.assertEquals(driver.getCurrentUrl(), TheWebSite,"validation of the website url after the logout process");
-		   softassert.assertAll();
+		 softassert.assertAll();
 		
 
 	}
@@ -66,13 +69,12 @@ public class myTestCases extends Parameters {
 		String  CollapsibleNav = driver.findElement(By.xpath("//div[@id='block-collapsible-nav']")).getText();
 		String  DashboardAddressesSection = driver.findElement(By.xpath("//div[@class='block block-dashboard-addresses']")).getText();
 
-		
 	    softassert.assertEquals(InformationSection.contains("My Account"),true ,"validation the signin proces (validation that the InformationSection)");
 	    softassert.assertEquals(CollapsibleNav.contains("My Orders"),true ,"validation the signin process (validation that the CollapsibleNav)");
 	    softassert.assertEquals(DashboardAddressesSection.contains("Default Billing Address"),true ,"validation the signin process (validation that the DashboardAddressesSection)");
 
 		   
-		   softassert.assertAll();
+		softassert.assertAll();
 		
 	}
 	
