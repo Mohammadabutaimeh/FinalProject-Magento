@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-04T16:40:16 EET" name="Default suite" finished-at="2023-12-04T16:40:38 EET" duration-ms="21903">
+    <groups>
+    </groups>
+    <test started-at="2023-12-04T16:40:16 EET" name="Default test" finished-at="2023-12-04T16:40:38 EET" duration-ms="21903">
+      <class name="MagentoTsetCases.myTestCases">
+        <test-method is-config="true" signature="myBefore()[pri:0, instance:MagentoTsetCases.myTestCases@44828f6b]" started-at="2023-12-04T16:40:16 EET" name="myBefore" finished-at="2023-12-04T16:40:19 EET" duration-ms="3058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myBefore -->
+        <test-method signature="SignupTestCase()[pri:1, instance:MagentoTsetCases.myTestCases@44828f6b]" started-at="2023-12-04T16:40:19 EET" name="SignupTestCase" finished-at="2023-12-04T16:40:26 EET" duration-ms="7105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupTestCase -->
+        <test-method signature="LogoutTestCase()[pri:2, instance:MagentoTsetCases.myTestCases@44828f6b]" started-at="2023-12-04T16:40:26 EET" name="LogoutTestCase" finished-at="2023-12-04T16:40:35 EET" duration-ms="8306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutTestCase -->
+        <test-method signature="LoginTestCase()[pri:3, instance:MagentoTsetCases.myTestCases@44828f6b]" started-at="2023-12-04T16:40:35 EET" name="LoginTestCase" finished-at="2023-12-04T16:40:38 EET" duration-ms="3368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCase -->
+        <test-method is-config="true" signature="myAfterTest()[pri:0, instance:MagentoTsetCases.myTestCases@44828f6b]" started-at="2023-12-04T16:40:38 EET" name="myAfterTest" finished-at="2023-12-04T16:40:38 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAfterTest -->
+      </class> <!-- MagentoTsetCases.myTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
